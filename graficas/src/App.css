@@ -31,3 +31,29 @@
     transform: rotate(360deg);
   }
 }
+
+.device-title{
+  font-weight: bold;
+}
+
+.text-color-green{
+  color:#89D042;
+}
+
+.text-color-green-s{
+  color:#3B690C;
+}
+
+.chart-box{
+  height: 300px;
+}
+
+.chart-title-box{
+  width: 100px;
+  height: 45px;
+  position: absolute;
+  top: 38%;
+  left: 40%;
+  text-align: center;
+  cursor: default;
+}
