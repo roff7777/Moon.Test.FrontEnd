@@ -10,12 +10,11 @@ class DashboardElement extends React.Component {
 
   render() {
     return (
-        <div className="row">
-          <div className="col-2 card shadow p-3 mb-5 bg-white rounded">
+          <div className="col-12 col-md-6 col-lg-4 card shadow p-3 mb-5 bg-white rounded">
             <Dona info={this.props.info}></Dona>
             <Detail info={this.props.info}></Detail>
           </div>
-        </div>)};
+        )};
 
   componentDidMount() {
     this.setState({ someKey: 'otherValue' });

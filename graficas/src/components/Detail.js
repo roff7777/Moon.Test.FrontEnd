@@ -27,8 +27,8 @@ class Detail extends React.Component {
 
       <div className="col-6">
         <div className="row">
-          <div className="col text-left">
-            <span className={"font-weight-bolder " + this.props.info.Detail[1].StylizedClass}>{this.props.info.Detail[0].Name}</span>
+          <div className="col text-right">
+            <span className={"font-weight-bolder " + this.props.info.Detail[1].StylizedClass}>{this.props.info.Detail[1].Name}</span>
           </div>
         </div>
 
